@@ -16,7 +16,8 @@ body {
 
 .head-div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 100px 30px;
 }
 
 .main-hero {
@@ -24,7 +25,9 @@ body {
     font-weight: bolder;
 }
 
-
+.hero-container {
+    width: 480px;
+}
 
 
 .logo {
@@ -48,12 +51,14 @@ button {
     padding: 8px 25px;
     border: none;
     border-radius: 8px;
+    margin-top: 10px;
 }
 
 img {
     background-color: grey;
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    text-align: center;
+    line-height: 220px;
 }
 
 .header {
