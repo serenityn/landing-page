@@ -101,3 +101,32 @@ button {
     color: #1f2937;
     margin-bottom: 32px;
 }
+
+.body-container-grey {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+}
+
+.quote {
+    max-width: 800px;    
+}
+
+.para {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+    padding: 20px;
+}
+
+.annote {
+    font-size: 25px;
+    font-weight: 800;
+    color: #1f2937;
+    display: flex;
+    justify-content: flex-end;
+}
