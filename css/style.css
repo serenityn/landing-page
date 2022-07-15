@@ -130,3 +130,34 @@ button {
     display: flex;
     justify-content: flex-end;
 }
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    border-radius: 14px;
+    padding: 40px 75px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up {
+    border: 3px solid #f9faf8;
+}
+
+.call-title {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.call-text {
+    font-weight: lighter;
+    font-size: 15px;
+    color: #e5e7eb;
+}
